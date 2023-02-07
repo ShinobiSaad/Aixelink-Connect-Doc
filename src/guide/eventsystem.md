@@ -16,6 +16,8 @@ We will use **icusearchform** as an example to understand it.
     
 > src of <i>index.vue</i> : `src\views\home\index.vue`
 
+###  Launching the form
+
 When the button will be clicked from the **formdata.js** it will dispatch an event which is called ``LaunchICUFormEvent``. And the same event is listening
 on the ``mounted()`` of the **index.vue**
 
@@ -107,3 +109,4 @@ try {
 
 After the ``UrlGetEvent`` is dipatched, the ``LaunchICUFormEvent`` gets all the necessary data and the Form is launched.
 
+###  Activating Patients
